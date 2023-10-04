@@ -181,3 +181,19 @@ cd getting-started-app
 docker run -dp 127.0.0.1:3000:3000 getting-started
 sudo docker run -dp 127.0.0.1:3000:3000 getting-started
 sudo docker ps
+ssh -T git@github.com
+cd getting-started-app
+ls
+nano readme.md
+nano readme.nd
+git add
+git add .
+git commit -m "hello"
+git push
+ssh -T git@github.com
+ls
+git add .
+git commit -m "hello"
+git push
+git show remote origin
+git show origin
