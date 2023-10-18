@@ -197,3 +197,101 @@ git commit -m "hello"
 git push
 git show remote origin
 git show origin
+ssh -T git@github.com
+git add .
+git commit -m "hello"
+git push
+cd getting-started-app
+nano readme.md
+cd
+git add .
+git commit -m "hello2"
+git push
+ls
+ls a
+ls -a
+cd src
+cd /src
+cd getting-started-app
+ls
+cd /src
+cd src
+ls
+cd static/js
+ls
+cd app.js
+nano app.js
+cd
+cd getting-started-app
+sudo docker build -t getting-started .
+sudo docker run -dp 127.0.0.1:3000:3000 getting-started
+sudo docker ps
+sudo docker rm 9e1ab1ce1a67
+sudo docker stop
+sudo docker stop  9e1ab1ce1a67
+sudo docker rm 9e1ab1ce1a67
+sudo docker run -dp 127.0.0.1:3000:3000 getting-started
+cd src/
+ls
+cd static/
+ls
+cd js/
+nano app.js
+sudo docker ps
+vim app.js
+sudo docker build -t getting-started .
+cd 
+cd getting-started-app
+sudo docker build -t getting-started .
+sudo docker run -dp 127.0.0.1:3000:3000 getting-started
+sudo docker ps
+sudo docker stop 1bd04cdeb231
+sudo docker rm 1bd04cdeb231
+sudo docker run -dp 127.0.0.1:3000:3000 getting-started
+cd
+git add .
+git commit -m "lab3"
+git push
+docker push liljaob/cloudcomputing:tagname
+sudo docker push liljaob/cloudcomputing:tagname
+ls
+docker run -dp 127.0.0.1:3000:3000 getting-started
+cd getting-started-app
+docker run -dp 127.0.0.1:3000:3000 getting-started
+docker build -t getting-started .
+sudo docker run -dp 127.0.0.1:3000:3000 getting-started
+docker ps
+sudo docker ps
+sudo docker run -dp 127.0.0.1:3000:3000 getting-started
+sudo docker build -t getting-started .
+sudo docker run -dp 127.0.0.1:3000:3000 getting-started
+sudo docker run -dp 127.0.0.1:3000 getting-started
+sudo docker run -dp 127.0.0.1:3000:3000 getting-started
+sudo docker ps
+sudo docker stop ba533943ff69
+sudo docker ps
+sudo docker run -dp 127.0.0.1:80:3000 getting-started
+sudo docker ps
+sudo docker run -dp 127.0~8~0:3000 getting-started
+sudo docker stop a641af55f6cb
+sudo docker run -dp 80:3000 getting-started
+sudo docker ps
+sudo docker stop a9db3bc2c291
+sudo docker run -dp 127.0.0.1:3000:3000 getting-started
+sudo docker ps
+sudo docker stop 25d2558b5c61
+sudo docker build -t getting-started .
+sudo docker run -dp 80:3000 getting-started
+sudo docker build -t getting-started .
+sudo docker ps
+sudo docker build -t getting-started .
+ls
+cd getting-started-app
+sudo docker build -t getting-started .
+sudo docker run -dp 80:3000 getting-started
+sudo docker run -dp 51.11.179.240:80:3000 getting-started
+sudo docker ps
+sudo docker stop 5736fe5f90e
+sudo docker build -t getting-started .
+sudo docker run -dp 51.11.179.240:80:3000 getting-started
+sudo docker run -dp 80:3000 getting-started
