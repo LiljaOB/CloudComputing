@@ -295,3 +295,229 @@ sudo docker stop 5736fe5f90e
 sudo docker build -t getting-started .
 sudo docker run -dp 51.11.179.240:80:3000 getting-started
 sudo docker run -dp 80:3000 getting-started
+cd getting-started-app
+cd
+ls
+cd getting-started-app
+ls
+cd src
+ls
+cd static
+ls
+cd js
+nano app.js
+ls
+cd
+cd getting-started-app
+cd src
+cd static
+ls
+cd css
+ls
+cd styles.css
+nano styles.css
+sudo docker build -t getting-started .
+cd
+cd getting-started-app
+sudo docker build -t getting-started .
+docker ps
+sudo docker ps
+sudo docker stop 872e9526b85a
+sudo docker run -dp 80:3000 getting-started
+cd src
+cd static
+cd css
+ls
+nano styles.css
+cd
+cd getting-started-help
+cd getting-started-app
+sudo docker ps
+sudo docker stop 99591c19a654
+sudo docker build -t getting-started .
+sudo docker run -dp 80:3000 getting-started
+sudo docker push
+sudo docker push -a
+docker push --a
+docker push -a
+docker commit -a
+docker commit
+sudo docker ps
+sudo docker commit -a 6f2c30a107e0 liljaob/cloudcomputing:tagname
+sudo docker commit -a liljaob/cloudcomputing:tagname
+sudo docker commit -a liljaob/cloudcomputing:tagname 6f2c30a107e0
+sudo docker push -a liljaob/cloudcomputing:tagname 6f2c30a107e0
+sudo docker push -a liljaob/cloudcomputing:tagname
+sudo docker push liljaob/cloudcomputing:tagname
+docker push liljaob/cloudcomputing:labthree
+sudo docker push liljaob/cloudcomputing:labthree
+sudo docker image ps
+sudo docker image ls
+docker container commit c16378f943fe rhel-httpd:latest
+sudo docker ps
+sudo docker container commit 6f2c30a107e0 liljaob/cloudcomputing:getting-started
+docker image tag rhel-httpd:latest registry-host:5000/myadmin/rhel-httpd:latest
+docker image push registry-host:5000/myadmin/rhel-httpd:latest
+docker image push liljaobyrne/cloudcomputing:80:3000/myadmin/rhel-httpd:latest
+sudo docker push
+sudo docker push -a
+sudo docker push --help
+sudo docker -a liljaobyrne:getting-started
+sudo docker -all--tags liljaobyrne:getting-started
+git commit
+git add -a
+git add
+git add .
+git add -a
+git add -a .
+git commit .
+git push
+git push git@gihub.com
+git push -a
+git push git@gihub.com
+git push
+cd
+git push
+git commit -a
+git add -a
+git add
+git push
+docker push liljaob/getting-started:tagname
+sudo docker push liljaob/getting-started:tagname
+sudo docker login liljaob
+sudo docker login
+sudo docker login liljaob
+docker
+docker login liljaob
+sudo docker login liljaob
+cd getting-started-app
+sudo docker ps
+sudo docker build -t getting-started .
+sudo docker ps
+sudo docker stop 933ce1e4fb67
+docker run -dp 127.0.0.1:3000:3000 getting-started
+sudo docker run -dp 80:3000  getting-started
+sudo docker build -t getting-started .
+docker run -dp 127.0.0.1:3000:3000 --mount type=volume,src=todo-db,target=/etc/todos getting-started
+sudo docker run -dp 80:3000 --mount type=volume,src=todo-db,target=/etc/todos getting-started
+sudo docker ps
+sudo docker stop c9d4dcf62831
+sudo docker ps
+sudo docker run -dp 80:3000 --mount type=volume,src=todo-db,target=/etc/todos getting-started
+sudo docker stop d94e0cfc3ddb
+sudo docker stop 38d63389e6b7
+sudo docker run -dp 80:3000 --mount type=volume,src=todo-db,target=/etc/todos getting-started
+sudo docker ps
+sudo docker stop 8f31f5d10bf0 
+sudo docker run -dp 80:3000 --mount type=volume,src=todo-db,target=/etc/todos getting-started
+sudo docker ps
+sudo docker stop ed3083d8f1f5
+sudo docker build -t getting-started .
+sudo docker run -dp 80:3000 --mount type=volume,src=todo-db,target=/etc/todos getting-started
+sudo docker ps
+sudo docker stop 3ce033d9ffef
+sudo docker build -t getting-started .
+sudo docker run -dp 80:3000 --mount type=volume,src=todo-db,target=/etc/todos getting-started
+sudo docker volume create portainer_data
+sudo docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ee:latest
+sudo docker ps
+sudo docker stop b9844ea0b48f
+sudo docker run -d -p 80:3000 -p 80:3000 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ee:latest
+sudo docker ps
+sudo docker run -d -p 80:3000 -p 80:3000 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ee:latest
+
+sudo docker run -d -p 80:3000 -p 80:3000 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ee:latest
+sudo docker run -d -p 8000:8000 -p 80:3000 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ee:latest
+sudo docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ee:latest
+docker ps
+sudo docker ps
+docker volume create portainer_data
+sudo docker volume create portainer_data
+ls
+sudo docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ee:latest
+sudo docker ps
+docker ps
+sudo docker ps
+cd getting-started-app
+sudo docker ps
+sudo docker network create todo-app
+sudo docker ps -a
+sudo docker run -d     --network todo-app --network-alias mysql     -v todo-mysql-data:/var/lib/mysql     -e MYSQL_ROOT_PASSWORD=secret     -e MYSQL_DATABASE=todos     mysql:8.0
+sudo docker ps
+sudo docker exec -it 808d70e64dd1 mysql -u root -p
+sudo docker run -it --network todo-app nicolaka/netshoot
+touch compose.YAML
+ls
+rm compose.YAML
+ls
+
+nano compose.yaml
+sudo docker run -d   --network todo-app --network-alias mysql   -v todo-mysql-data:/var/lib/mysql   -e MYSQL_ROOT_PASSWORD=secret   -e MYSQL_DATABASE=todos   mysql:8.0
+nano compose.yaml
+sudo docker ps
+sudo docker stop fa2c7afe58b6
+sudo docker rm fa2c7afe58b6
+sudo docker ps
+nano compose.yaml
+sudo docker compose up -d
+sudo docker compose up
+sudo docker ps
+sudo docker compose up -d
+sudo apt-get update
+sudo apt-get install docker-compose-plugin
+sudo docker compose up -d
+sudo apt-get install docker-compose-plugin
+# Add Docker's official GPG key:
+sudo apt-get update
+sudo apt-get install ca-certificates curl gnupg
+sudo install -m 0755 -d /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+sudo chmod a+r /etc/apt/keyrings/docker.gpg
+# Add the repository to Apt sources:
+echo   "deb [arch="$(dpkg --print-architecture)" signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+  "$(. /etc/os-release && echo "$VERSION_CODENAME")" stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update
+sudo docker compose up -d
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+sudo docker compose up -d
+sudo docker compose logs -f
+ls
+cd getting-started-app
+ls a
+ls -a
+cd src
+ls 
+ls -a
+cd static
+ls
+ls -a
+cd
+cd getting-started-app
+ls
+cd src
+cd static
+ls
+cd js
+ls
+nano app.js
+sudo docker ps
+sudo docker start ee0f5890b27d
+docker volume create portainer_data
+sudo docker volume create portainer_data
+sudo docker run -d -p 8000:8000 -p 9000:9000 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ee:latest
+sudo docker ps
+sudo docker stop ee0f5890b27d
+sudo docker rm  ee0f5890b27d
+sudo docker run -d -p 8000:8000 -p 9000:9000 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ee:latest
+sudo docker ps
+sudo docker logs -f 041bb20e0e30
+sudo docker exec -it <mysql-container-id> mysql -p todos
+sudo docker exec -it 041bb20e0e30  mysql -p todos
+docker compose up -d
+cd getting-started-app
+ls
+sudo docker compose up -d
+git branch "read only"
+git branch read only
+git branch readonly
+sudo docker ls
